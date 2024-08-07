@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Product preview card component]()
-- Live Site URL: [Product preview card component Live]()
+- Solution URL: [Product preview card component](https://github.com/Shoaib-Bin-Rashid/Product-preview-card-component)
+- Live Site URL: [Product preview card component Live](https://shoaib-bin-rashid.github.io/Product-preview-card-component/)
 
 ## My process
 
