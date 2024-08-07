@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.container{
+    display: flex;
+    width: 640px;
+    max-height: 94vh;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.perf{
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+}
+.info{
+    padding: 34px;
+    width: 50%;
+}
+
+p{
+    color: rgb(136 127 127);
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    letter-spacing: .35em;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+h1{
+    padding: 20px 0px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.2rem;
+}
+
+.details{
+    line-height: 1.5rem;
+    padding: 5px 0px;
+}
+
+.price{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.inactive{
+    text-decoration: line-through;
+    padding: 20px;
+}
+
+button{
+    display: flex;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(159, 37%, 20%);
+}
+
+.cart{
+    height: 17px;
+    width: 17px;
+}
+
+button p {
+    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        flex-direction: column;
+    }
+    .perf{
+        background-image: url(images/image-product-mobile.jpg);
+        border-radius: 12px 12px 0px 0px;
+        width: auto;
+        height: 70vw;
+        min-height: 30vh;
+    }
+
+    .info{
+        width: 100%;
+        min-height: 50vh;
+        padding: 30px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .price{
+        padding: 10px 0px;
+    }
+}
